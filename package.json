@@ -1,0 +1,40 @@
+{
+    "name": "oh-theme",
+    "displayName": "Oh Theme",
+    "description": "A beautiful theme converted from Xcode",
+    "version": "0.0.1",
+    "publisher": "ohlulu",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Oh Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/oh-theme.json"
+            }
+        ]
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ohlulu/OhTheme.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ohlulu/OhTheme/issues"
+    },
+    "homepage": "https://github.com/ohlulu/OhTheme#readme",
+    "devDependencies": {
+        "@types/vscode": "^1.97.0"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "name": "Oh Theme",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1F2128",
+        "editor.foreground": "#E5E7DB",
+        "editor.lineHighlightBackground": "#575859C8",
+        "editor.selectionBackground": "#FFFFFF25",
+        "editorCursor.foreground": "#F8F8F2",
+        "editorWhitespace.foreground": "#75715E",
+        "statusBar.background": "#1F2128",
+        "statusBar.foreground": "#E5E7DB",
+        "sideBar.background": "#1F2128",
+        "sideBar.foreground": "#E5E7DB"
+    },
+    "tokenColors": [
+        {
+            "scope": ["comment", "comment.block", "comment.line"],
+            "settings": {
+                "foreground": "#68915D"
+            }
+        },
+        {
+            "scope": ["string", "string.quoted"],
+            "settings": {
+                "foreground": "#B33737"
+            }
+        },
+        {
+            "scope": ["constant.numeric"],
+            "settings": {
+                "foreground": "#85BF5D"
+            }
+        },
+        {
+            "scope": ["keyword"],
+            "settings": {
+                "foreground": "#933887"
+            }
+        },
+        {
+            "scope": ["entity.name.type", "entity.name.class"],
+            "settings": {
+                "foreground": "#5DD8FFFF"
+            }
+        },
+        {
+            "scope": ["function.defaultLibrary", "type.defaultLibrary"],
+            "settings": {
+                "foreground": "#5DD8FFFF"
+            }
+        },
+        {
+            "scope": ["entity.name.function"],
+            "settings": {
+                "foreground": "#5DD8FFFF"
+            }
+        },
+        {
+            "scope": ["variable"],
+            "settings": {
+                "foreground": "#68C396"
+            }
+        },
+        {
+            "scope": ["support.type", "support.class"],
+            "settings": {
+                "foreground": "#419B92"
+            }
+        },
+        {
+            "scope": ["constant.language", "support.constant"],
+            "settings": {
+                "foreground": "#419B92"
+            }
+        },
+        {
+            "scope": ["support.function"],
+            "settings": {
+                "foreground": "#5DD8FFFF"
+            }
+        }
+    ]
+} 
