@@ -1944,7 +1944,7 @@
                 "source.makefile"
             ],
             "settings": {
-                "foreground": "#efb080"
+                "foreground": "#81A1C1"
             }
         },
         {
@@ -2179,7 +2179,14 @@
             "scope": "comment, punctuation.definition.comment",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#6d6d6d"
+                "foreground": "#69915D"
+            }
+        },
+        {
+            "name": "meta definition type body",
+            "scope": "meta.definition.type.body",
+            "settings": {
+                "foreground": "#b3b3b3"
             }
         },
         {
